@@ -36,7 +36,7 @@ echo "La suma de todos los valores es: " . $X + $Y + $M + $N . "<br>";
 
 echo "El producto de todos los valores es: " . $X * $Y * $M * $N . "<br>";
 
-function calculadora($num1, $num2, $operador){
+function Calcular(int $num1, int $num2, string $operador) : float{
 
     $resultado = "";
 

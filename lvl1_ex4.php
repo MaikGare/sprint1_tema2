@@ -1,11 +1,11 @@
 <?php 
 
-function contador($tope,$incremento){
+function Incrementar(int $incremento, int $tope = 10) : void{
 
     for ($i=0; $i <= $tope; $i += $incremento) { 
         echo $i . "<br>";
     }
 
 }
-contador(100,5);
+Incrementar(5);
 ?>
